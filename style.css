@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+/* CSS Document */
+/*顏色漸層*/
+body {
+	background: linear-gradient(-45deg, #e0ac9d, #d398af, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+table {
+    background-color: rgb(218, 227, 240);
+    width: 60%;
+    height: 20%;
+    border: 5px solid #000;
+    font-family: 微軟正黑體;
+    font-size: 16px;
+    border: 1px solid #000;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #009FCC;
+    padding: 10px;
+    border: 1px solid #000;
+    color: #fff;
+}
+
+td {
+    border: 1px solid #000;
+    padding: 5px;
+    padding: 10px;
+}
+
+.top {
+    background-color: #87CEFA;
+    background: -o-linear-gradient(90deg, #87CEFA, #bae3fc);
+    background: -moz-linear-gradient( center top, #87CEFA 5%, #bae3fc 100%);
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #87CEFA), color-stop(1, #bae3fc));
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#87CEFA', endColorstr='#bae3fc');
+    color: #000000
+}
+
+.top2 {
+    background-color: #87CEFA;
+    background: -o-linear-gradient(90deg, #87CEFA, #bae3fc);
+    background: -moz-linear-gradient( center top, #87CEFA 5%, #bae3fc 100%);
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #87CEFA), color-stop(1, #bae3fc));
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#87CEFA', endColorstr='#bae3fc');
+    color: #000000
+}
+
+a {
+    color: rgb(26, 1, 24);
+    text-decoration: none;
+    padding: 9px;
+}
+
+a:hover {
+    color: brown;
+    box-shadow: 0 0 5px rgb(255, 136, 136) inset;
+}
